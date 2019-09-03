@@ -56,6 +56,7 @@ public class Main {
 		double supportCountOfAB = data.getSupport(itemset1);
 		double supportCountOfA = data.getSupport(itemset2);
 		System.out.println("Confidence of (" + itemset1 + "=>" + itemset2 + ") = " + supportCountOfAB+"/"+supportCountOfA);
+		//System.out.println("test");
 	}
 
 }
